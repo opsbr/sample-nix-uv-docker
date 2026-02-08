@@ -1,0 +1,15 @@
+[project]
+name = "my-app"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.128.4",
+]
+
+[tool.fastapi]
+entrypoint = "my_app:app"
+
+[build-system]
+requires = ["uv_build>=0.10.0,<0.11.0"]
+build-backend = "uv_build"
