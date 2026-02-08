@@ -10,15 +10,13 @@ This repository shows a minimal FastAPI workflow with:
 
 - WSL (Ubuntu 24.04)
 - Docker Desktop with WSL integration enabled
-- Determinate Nix
+- Nix
 
-Install Determinate Nix:
+Install Nix via [Nix Installer](https://github.com/NixOS/nix-installer):
 
 ```sh
-curl -fsSL https://install.determinate.systems/nix | sh -s -- install
+curl -sSfL https://artifacts.nixos.org/nix-installer | sh -s -- install
 ```
-
-Reference: https://docs.determinate.systems/determinate-nix/
 
 ## Quickstart
 
